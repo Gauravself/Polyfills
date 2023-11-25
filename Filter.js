@@ -1,5 +1,5 @@
 const isDivisibleByTwo = () => {
-  return val % 2;
+  return val % 2===0;
 };
 
 Array.prototype.myFilter = function (callback, context) {

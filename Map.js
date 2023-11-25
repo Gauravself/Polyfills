@@ -3,7 +3,7 @@ const doubleNumber = (val) => {};
 Array.prototype.myMap = function (callback) {
   let result = [];
   for (let i = 0; i < this.length; i++) {
-    result[index] = callback(this[i], i, this);
+    result[i] = callback(this[i], i, this);
   }
   return result;
 };
